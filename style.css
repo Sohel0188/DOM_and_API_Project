@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #8d8c8c;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.players-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.searchResult {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.searchCard {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 31%;
+    /* width: calc(30% - 20px); */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+.player-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 31%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #8d8c8c;
+}
+.modalImg img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #8d8c8c;
+}
+.cartImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.value-table tr td{
+    padding: 5px;
+    color: #484848;
+    font-size: 13px;
+}
+
+.player-card h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.player-card .role {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.player-card .details p {
+    color: #777;
+    margin: 5px 0;
+    
+}
+
+.social-icons {
+   margin: 15px 0px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 7px;
+  
+    border-radius: 50%;
+    padding: 7px;
+    color: #e0e6eb;
+    size: 8px;
+    background-color: #0e69a1;
+}
+
+.view-profile,
+.add-member {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.view-profile {
+    background-color: #0b73af;
+    color: white;
+}
+
+.add-member {
+    background-color: #0e69a1;
+    color: white;
+}
+
+.team-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-details h4{
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-details li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+}
+.card{
+    
+    position: sticky;
+    top: 0;
+    height: 500px;
+    overflow: scroll;
+}
+.card h5{
+    background-color: #0e69a1;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.cartData table tr{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.playerDic{
+    text-align: justify;
+}
