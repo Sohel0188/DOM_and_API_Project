@@ -4,7 +4,7 @@ const search = (event) => {
     search_value.value = "";
 
     //console.log(search_value)
-    fetch(`http://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${query}`)
+    fetch(`https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${query}`)
         .then(res => res.json())
         .then((data) => {
             console.log(data)
